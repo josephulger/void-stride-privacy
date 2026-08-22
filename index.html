@@ -16,14 +16,15 @@
 <body>
 
 <h1>Void Stride — Privacy Policy</h1>
-<p class="updated">Last updated: July 9, 2026</p>
+<p class="updated">Last updated: August 22, 2026</p>
 
 <p><strong>Void Stride</strong>, developed by Yusuf Ülger, is an arcade game.
 It shows ads through <strong>Google AdMob</strong> and has <strong>no user
-accounts</strong>. Apart from advertising (see "Advertising" below), the only data
-that leaves your device is what you choose to submit to the <strong>optional
-online leaderboard</strong> — and any names you choose to report — both described
-below.</p>
+accounts</strong>. Apart from advertising (see "Advertising" below), the app
+sends a minimal, anonymous <strong>app-open event</strong> on every launch (see
+"Analytics" below), and — if you choose to use it — data you submit to the
+<strong>optional online leaderboard</strong>, and any names you choose to report,
+both described below.</p>
 
 <h2>Data we collect (only if you use the online leaderboard)</h2>
 <p>The leaderboard is optional. If you open it and choose a display name, the app
@@ -40,7 +41,18 @@ submits the following to publish your ranking:</p>
 behalf. Your chosen display name is <strong>shown publicly</strong> to other
 players on the leaderboard. We use this data only to operate the leaderboard —
 never for advertising, profiling or tracking. If you never open the leaderboard
-or never set a name, <strong>no data is collected or transmitted</strong>.</p>
+or never set a name, no <em>leaderboard</em> data is collected (see "Analytics"
+below for the separate app-open event, which is sent regardless).</p>
+
+<h2>Analytics</h2>
+<p>Every time you open the app, it sends a single, minimal record to
+<strong>Supabase</strong>: a timestamp, your device platform (e.g. "android"),
+and the same <strong>random per-install identifier</strong> used for the
+leaderboard (not your device ID, not tied to your name or identity). We use this
+only to measure in aggregate how many players return the day after installing
+(retention) — never for advertising, profiling or tracking, and never shared with
+third parties. This happens automatically and is not tied to using the
+leaderboard.</p>
 
 <h2>Moderation</h2>
 <p>Because display names are visible to others, the app filters offensive names
@@ -94,14 +106,15 @@ device settings.</p>
 <hr>
 
 <h1>Void Stride — Gizlilik Politikası</h1>
-<p class="updated">Son güncelleme: 9 Temmuz 2026</p>
+<p class="updated">Son güncelleme: 22 Ağustos 2026</p>
 
 <p>Yusuf Ülger tarafından geliştirilen <strong>Void Stride</strong> bir arcade
 oyunudur. <strong>Google AdMob</strong> aracılığıyla reklam gösterir ve
 <strong>kullanıcı hesabı yoktur</strong>. Reklamlar dışında (aşağıdaki "Reklamlar"
-bölümüne bakın), cihazınızdan çıkan tek veri, aşağıda açıklanan <strong>isteğe
-bağlı çevrimiçi skor tablosuna</strong> sizin gönderdiğiniz bilgiler ve bildirmeyi
-seçtiğiniz adlardır.</p>
+bölümüne bakın), uygulama her açılışta minimal, anonim bir <strong>uygulama açma
+kaydı</strong> gönderir (aşağıdaki "Analitik" bölümüne bakın), ve — kullanmayı
+seçerseniz — <strong>isteğe bağlı çevrimiçi skor tablosuna</strong> gönderdiğiniz
+bilgiler ile bildirmeyi seçtiğiniz adlar, ikisi de aşağıda açıklanmıştır.</p>
 
 <h2>Topladığımız veriler (yalnızca skor tablosunu kullanırsanız)</h2>
 <p>Skor tablosu isteğe bağlıdır. Açıp bir görünen ad seçerseniz, sıralamanızı
@@ -118,7 +131,18 @@ barındırma hizmeti <strong>Supabase</strong>'e gönderilir ve orada saklanır.
 Seçtiğiniz görünen ad, skor tablosunda diğer oyunculara <strong>herkese açık</strong>
 gösterilir. Bu verileri yalnızca skor tablosunu çalıştırmak için kullanırız;
 reklam, profilleme veya takip için asla. Skor tablosunu hiç açmaz ya da ad
-belirlemezseniz <strong>hiçbir veri toplanmaz veya iletilmez</strong>.</p>
+belirlemezseniz, <em>skor tablosu</em> verisi toplanmaz (uygulama açma kaydı için
+aşağıdaki "Analitik" bölümüne bakın — bu, her durumda gönderilir).</p>
+
+<h2>Analitik</h2>
+<p>Uygulamayı her açtığınızda, <strong>Supabase</strong>'e tek ve minimal bir kayıt
+gönderilir: bir zaman damgası, cihaz platformunuz (ör. "android") ve skor
+tablosuyla aynı, cihazınızda üretilen <strong>rastgele kuruluma-özel kimlik</strong>
+(cihaz kimliğiniz değildir, adınıza veya kimliğinize bağlı değildir). Bunu yalnızca
+oyuncuların kurulumdan sonraki gün geri dönme oranını (retention) toplu olarak
+ölçmek için kullanırız; reklam, profilleme veya takip için asla ve üçüncü taraflarla
+asla paylaşılmaz. Bu, skor tablosunu kullanmanızdan bağımsız olarak otomatik
+gerçekleşir.</p>
 
 <h2>Moderasyon</h2>
 <p>Görünen adlar başkalarına görünür olduğundan, uygulama uygunsuz adları filtreler
